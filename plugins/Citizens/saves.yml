@@ -1,0 +1,599 @@
+# Citizens NPC Storage
+
+last-created-npc-id: 7
+npc:
+  '0':
+    name: §aCave Info Man
+    uuid: f4eab3c2-b81e-4d06-8efb-2322bb3b01ac
+    traits:
+      owner:
+        uuid: 40918953-b8a4-40c5-80da-b33dbf94e95b
+      type: VILLAGER
+      spawned: true
+      age:
+        age: 0
+        locked: true
+      location:
+        bodyYaw: 89.66368
+        world: world
+        x: '525.8211'
+        y: '65.0'
+        z: '328.3563'
+        yaw: '95.6439'
+        pitch: '0.0'
+      text:
+        delay: -1
+        talk-close: false
+        random-talker: false
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        speech-bubbles: false
+        text:
+          '0': '&aHello, friend! Welcome to the island''s big cave!'
+          '1': '&aYou want to know more about the cave? Well islanders tend to avoid
+            the cave because it is quite dangerous.'
+          '2': '&aPeople venture into the cave but every year, a few people never
+            make it back up...'
+          '3': '&aRumor has it that there is a &llarge &r&abeast lurking down there...'
+          '4': '&aAdvice? I would advise you to stay away from the cave!'
+          '5': '&aWhat else have I heard? Just those rumors. I can''t help but wonder
+            if there are survivors down there with crazy stories to tell...'
+          '6': '&aWhat else do I know? That''s it, man! Never been down there and
+            don''t plan on it. If you''re so curious, why not &ogo yourself&r&a?'
+          '7': '&aWait! I was joking! You shouldn''t actually go down there! .......................
+            Well if you insist... don''t say I never warned ya... (&eEnd of conversation&a)'
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      speech: chat
+    traitnames: scoreboardtrait,spawned,text,location,mounttrait,age,type,speech,lookclose,owner
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      ambient-sound: ''
+      death-sound: ''
+      hurt-sound: ''
+      silent-sounds: true
+  '1':
+    metadata:
+      cached-skin-uuid: 34dccaa9-853c-413d-8156-786056aa3bb7
+      cached-skin-uuid-name: 91542cc7-59c9-47e5-8f5e-daf1b7f544a4
+    name: §3Squidward
+    uuid: 28879c47-2dc8-4e55-98c6-96303804f82d
+    traits:
+      owner:
+        uuid: 40918953-b8a4-40c5-80da-b33dbf94e95b
+      spawned: true
+      type: PLAYER
+      skintrait:
+        fetchDefaultSkin: true
+        signature: xd/f9kvPk/SBF5tI31JjkuNmjEVhhGPXIjYwRy1JJL68+E+a5/9TF26P8cozYRntJopQ/cbCR5b5dXCRx1iFcR1H+4oi4AfWU8QmKOCNoVVFKcqT6pr22JMLYQ/RKJ9zVIt9H3Bb+bxVNiHovEaRKd75eVDyUSBxlFW7mbcykHQmtaaaz8aAbvbH9W6Z0hIT0ss04I3WFgmsB7xTAlZHLOxlRiD57Pu0lT9Fm82dH90e+4UFFbZBxIptoaNlHi/4BqR1KGOkT+8Q0Bg+qRDnf8O58c5iUgeJo2nQ3J+ZeRnTbQnJUKOnXnqUhI36olxaZ7KA7ewtKnYeLXxvCzt62gxvnJeMKAFk+i8rcsW1ktmRrW0dwIS/9z5cyhEBNy2x+ga00WbwsJ7JyfVPbFYkcsBFfde0wbrUFaSujpU9GOHJwmXxdnCXvKpZXj8TsY7xygkL0HNmppTMgyy4fbZpQAHqgZnqMnh0x6tdA30VUY9msjNzVdkeFnFsKVK2vhJ8wpnkXAnPKSKeZarLk5zhT/lfkGsHV4+01QnLYTIycHj0X16Zfqqf7Y5rudWHB3Q8tVGrmj2JqU8rLXXb7QItA+i0IfF48HQHIWfdp44fCjAujct2voLOAhxi23sPUOwaeQA3TKc1jnq6dAoYG03GB8KD7ltGowGLcA2cDNTPhNA=
+        skinName: 91542cc7-59c9-47e5-8f5e-daf1b7f544a4
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTU5Njk5ODU4NTA4NiwKICAicHJvZmlsZUlkIiA6ICI5MWYwNGZlOTBmMzY0M2I1OGYyMGUzMzc1Zjg2ZDM5ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTdG9ybVN0b3JteSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS85MzdlYmU1MjUzM2U1ZTA5NDJjMDdmOTNjNmVkOWMzNjQzN2FhNDk1ZTdjMzcxNzAxOGIyNTU5NDg4MjdkMzUwIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=
+        updateSkins: false
+      age:
+        age: 0
+        locked: true
+      location:
+        bodyYaw: 89.68412
+        world: world
+        x: '562.6524'
+        y: '56.0'
+        z: '316.6316'
+        yaw: '89.6841'
+        pitch: '32.7002'
+      skinlayers:
+        cape: false
+        hat: true
+        jacket: true
+        left-pants: true
+        left-sleeve: true
+        right-pants: true
+        right-sleeve: true
+      text:
+        delay: -1
+        talk-close: false
+        random-talker: true
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        speech-bubbles: false
+        text:
+          '0': '&3I''m leaving through the backdoor if a creeper shows up'
+          '1': '&3Stop staring at me'
+          '2': '&3The only reason I''m here is because you idiots keep going down
+            to that cave'
+          '3': '&3I hate all of you'
+          '4': '&3What a pathetic job'
+          '5': '&3What do you mean what am I doing here?? &l&nI don''t want to be
+            here&r&3.'
+      speech: chat
+    traitnames: spawned,scoreboardtrait,text,inventory,location,mounttrait,age,type,skinlayers,speech,skintrait,owner
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '2':
+    metadata:
+      cached-skin-uuid: a3aee376-b217-4dbf-a3eb-a1192eaefca3
+      cached-skin-uuid-name: bodyguard
+      nameplate-visible: 'true'
+    name: §1Bodyguard
+    uuid: c6f33fb1-061f-4c6a-b192-b80d8b0e4d86
+    traits:
+      type: PLAYER
+      owner:
+        uuid: 40918953-b8a4-40c5-80da-b33dbf94e95b
+      spawned: true
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      skintrait:
+        fetchDefaultSkin: true
+        signature: GT9TQs/Nq1kE6BtDOs8kMszjvZDIjrotYSXqk9faRqGU8EpYoTsfIZMKbT+ua4kwZ4FfEk/xCIflXw7Grrpb8MDI2EGba1HCeS0O2YsfiBYZiP/rgzvrc+JXBMYFnl8htJKG9c+CCTWrC69DhmnjqXbSip/G7YlUPbLc1X+DajItmn8G7iFfjWS52y7Z0HQ8ZnRG7fvmScU5SORkeOZTd3O/6wt0XjqmMvUMv80PMsUgLMGaHYFn5dYx9RSVr2JYFTh9G19kfjF+djS8oigJI2ZAF+BP5Nkn4BsJ0khAw62AJz7vQHHJObg2MSXA25wvMWPNnM01r5rcg9Up38ZKOJBSUG4X/Ya4Su+nAhBA5c+5j4XrocSraH4CNAlEbDEUmpgKH6YI7PYxTKiVWgVFpBgp6YG3RrJ73Z+ZdvjYdvPCwDvo8KgEVsDuIXYro13xmdtsHOCOHiLEMTfi2mSaXDs6Nu66Q5sh/5EZg3F2ho193Km5KI6s5vfShhATv5odLiHkq1BsCjaY1iZym40QImBfze6hIKOrjz1Q1jYq51UuD+prXVVqDWsqZTdUVsAPzYPk0Vbt3fYFUmUqr3E0+jx+yZppSDXt6u5CsUDADgjyMNumVfCuHqtX2A1ws54x86uwHnVLagYoKHJ5NiCXmBcbmksAPsTk+TRHhYTnrpI=
+        skinName: bodyguard
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1NzkyNjgyNzU2NywKICAicHJvZmlsZUlkIiA6ICJhM2FlZTM3NmIyMTc0ZGJmYTNlYmExMTkyZWFlZmNhMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJCb2R5Z3VhcmQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmI2Y2U4YjY2NmJkYWFkOTkyZTg3YzVmY2FjNDg3ZTQxYTg3NmJjNTY1ZDE3N2FkNmQzNjE3N2ExZTI1YWEwMiIKICAgIH0KICB9Cn0=
+        updateSkins: false
+      age:
+        age: 0
+        locked: true
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+      location:
+        bodyYaw: 110.16818
+        world: world
+        x: '578.7612'
+        y: '65.0'
+        z: '317.5555'
+        yaw: '139.6714'
+        pitch: '-57.4768'
+      text:
+        delay: -1
+        talk-close: false
+        random-talker: true
+        realistic-looking: false
+        range: '3.0'
+        talkitem: default
+        speech-bubbles: true
+        text:
+          '0': '&1This is an exit only.'
+          '1': '&1Do not block the walkway.'
+          '2': '&1Leave now or I''ll have to kick you out'
+      mounttrait:
+        mountedon: c3e8ceaa-98f4-482a-a65d-df0188e80883
+      sneaking:
+        sneaking: true
+    traitnames: text,mounttrait,age,hologramtrait,smoothrotationtrait,owner,lookclose,sneaking,spawned,scoreboardtrait,inventory,location,type,skintrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '3':
+    metadata:
+      cached-skin-uuid-name: f34618a6-fbdf-4eaa-b7cd-f96c0878010d
+    name: Help Desk
+    uuid: f412b648-d93f-4582-b8f7-72b4d5afd316
+    traits:
+      skintrait:
+        fetchDefaultSkin: true
+        signature: ALD1LV/96N/guy8dLbDOmGsfu7L+pPVVBXLD0Ka4RGvjP9oVARbxXAkyAvWGzmPIBkD2hYo+iqsDWMAlpchIY5oYcvvN9UfdntUe4BP3p3JPnwmunIKb61TNWx2p6OjE416H00l95rTrUXjSi7yWbNpQPxzFMbUVWUf0XvJPk+VOdUu+sawKQgFXyAmyjbFgOZP8X1SKP0n+8CXXPZ4F48dZ8P8E5Pub67gG4pyHK9GBvJIpHzPMsKF0+hr4jGb72dndM++bygKd/9rssPQ7uhbvfEleLc6tlrc4sifNL42+ztt687UgbhpruYUFMnobpeCcYjex4RkABjsgHawptPS97ygSv4S4j8RY4lXfEBMcTpnDckaSvl3nEyImtJ4XDRNqkfOy4XLQynqdnfqxp7kCLWUNCsSlXA4pkSC/c0IMk3t2dsxr3G51ilPUteK2FwfZBMdXurwDhlePZWKdmD7O4OiZF/s8bcIdWVpPimJ/bubVHhMj0PLb9cTVHrg2QamaMZS8Sv/vLBn3e+RqditqezI45O/tKPb6N/PaFpimnsEsu7J09M91h5NKd6CZWRCizi78ufKI17uwdZdMM4gNNEvRdAyXQDpbSVglRB7H7eS/6YGQZAVh+wX3vroZvbP/97OVecGmkj9NgoFhsw6awEUmEQqueD6sWGroe54=
+        skinName: f34618a6-fbdf-4eaa-b7cd-f96c0878010d
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1Nzk0NjU1NTE0OSwKICAicHJvZmlsZUlkIiA6ICJjNTZlMjI0MmNiZWY0MWE2ODdlMzI2MGRjMGNmOTM2MSIsCiAgInByb2ZpbGVOYW1lIiA6ICJMSlI3MzEwMCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS85Y2I2ODI0MGFjYTQ4YTkxZjRhZmFmOTg5N2MxMDRmN2YyYzlhMjc0MzdlMjg0ZTA3MjQ2NDYzYmU2ODI1MzFlIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=
+        updateSkins: false
+      location:
+        bodyYaw: 142.53142
+        world: world
+        x: '635.2397'
+        y: '60.5'
+        z: '288.4651'
+        yaw: '142.5314'
+        pitch: '0.0'
+      type: PLAYER
+      owner:
+        uuid: 40918953-b8a4-40c5-80da-b33dbf94e95b
+      age:
+        age: 0
+        locked: true
+      spawned: true
+      text:
+        delay: -1
+        talk-close: false
+        random-talker: false
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        speech-bubbles: false
+        text:
+          '0': '&aIs it your first time riding the &1WTF&a?'
+          '1': '&aDon''t worry, it''s easy! On the track that you want to ride, make
+            sure there are no incoming minecarts. Once you are sure, just plop yours
+            down towards the right and hop on!'
+          '2': '&aYour cart needs an initial push, but then you can sit back and relax
+            as it will automatically start moving!'
+          '3': '&aOnce you arrive at your station, make sure you take you remove your
+            minecart from the track.'
+          '4': '&aWhere do I get a minecart? Every station has a cart vending machine!
+            There''s one over there!'
+          '5': '&aEnjoy your ride! (&eEnd of conversation&a)'
+      waypoints:
+        linear:
+          cachePaths: false
+          cycle: false
+          points:
+            '0':
+              location:
+                world: world
+                x: '633.0'
+                y: '61.0'
+                z: '288.0'
+                yaw: '0.0'
+                pitch: '0.0'
+              triggers:
+                '0':
+                  delay: 80
+                  type: delay
+            '1':
+              location:
+                world: world
+                x: '640.0'
+                y: '61.0'
+                z: '290.0'
+                yaw: '0.0'
+                pitch: '0.0'
+              triggers:
+                '0':
+                  delay: 80
+                  type: delay
+                '1':
+                  speed: 0.5
+                  type: speed
+            '2':
+              location:
+                world: world
+                x: '633.0'
+                y: '61.0'
+                z: '287.0'
+                yaw: '0.0'
+                pitch: '0.0'
+              triggers:
+                '0':
+                  delay: 80
+                  type: delay
+            '3':
+              location:
+                world: world
+                x: '640.0'
+                y: '61.0'
+                z: '288.0'
+                yaw: '0.0'
+                pitch: '0.0'
+              triggers:
+                '0':
+                  delay: 80
+                  type: delay
+                '1':
+                  speed: 0.5
+                  type: speed
+        provider: linear
+      speech: chat
+    traitnames: spawned,scoreboardtrait,text,inventory,location,waypoints,mounttrait,age,type,speech,skintrait,owner
+    navigator:
+      speedmodifier: '0.5'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '6':
+    name: §dWayne
+    uuid: 284265ca-2ec4-47b8-9e83-bad0fb940c3d
+    traits:
+      type: PIG
+      speech: chat
+      location:
+        bodyYaw: -88.1591
+        world: world
+        x: '460.0512'
+        y: '62.94'
+        z: '359.0981'
+        yaw: '-88.1591'
+        pitch: '0.0'
+      spawned: true
+      text:
+        delay: 40
+        talk-close: true
+        random-talker: true
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        speech-bubbles: false
+        text:
+          '0': '&d oink'
+          '1': '&dyOINK'
+          '2': '&di kinda built the castle myself... but theyre my friends so ill
+            just say we built it together :)'
+          '3': '&du think we hacked to make the castle? oh nouheuhno we built it from
+            the power of l33tcode'
+          '4': '&7Mew, &dill go up if u go'
+      sitting:
+        sitting: true
+        chair location:
+          world: world
+          x: '460.0512'
+          y: '62.8'
+          z: '359.0981'
+          yaw: '-88.1591'
+          pitch: '0.0'
+      owner:
+        uuid: 40918953-b8a4-40c5-80da-b33dbf94e95b
+      mounttrait:
+        mountedon: d046e1c7-559d-4665-8a15-46697711f86b
+      lookclose:
+        range: '2.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      age:
+        age: -24000
+        locked: true
+    traitnames: spawned,scoreboardtrait,text,sitting,location,mounttrait,age,type,speech,owner,lookclose
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '5':
+    name: §7Mew
+    uuid: 59a470a1-a085-4b7d-9fb6-3c115a5c8ac4
+    traits:
+      type: COW
+      speech: chat
+      location:
+        bodyYaw: -76.2539
+        world: world
+        x: '459.7805'
+        y: '62.94'
+        z: '356.1509'
+        yaw: '-76.2539'
+        pitch: '0.0'
+      spawned: true
+      text:
+        delay: 40
+        talk-close: true
+        random-talker: true
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        speech-bubbles: false
+        text:
+          '0': '&0M&fO&0O&fO&0O&fO&0O&fO&0O&fO&0O&fO&0O&fO&0O'
+          '1': '&eBuck &7shush or theyll kmoow we &fh&0aC&fKe&0d'
+          '2': '&7i dont feel like going up there... here is &0coOm&ffOrtab&0le'
+          '3': '&dWaynk &7how do u like it here'
+          '4': '&7nice vacation away from our parents...'
+      sitting:
+        sitting: true
+        chair location:
+          world: world
+          x: '459.7805'
+          y: '62.8'
+          z: '356.1509'
+          yaw: '-76.2539'
+          pitch: '0.0'
+      owner:
+        uuid: 40918953-b8a4-40c5-80da-b33dbf94e95b
+      mounttrait:
+        mountedon: 42e6270a-cf0b-4fad-a608-a1cbf54779b9
+      lookclose:
+        range: '2.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+      age:
+        age: -24000
+        locked: true
+    traitnames: spawned,scoreboardtrait,text,sitting,location,mounttrait,age,hologramtrait,type,speech,owner,lookclose
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '4':
+    name: §eBuck
+    uuid: 503216bf-b80e-40ed-a722-c617c215ec7e
+    traits:
+      type: CHICKEN
+      location:
+        bodyYaw: 2.9118
+        world: world
+        x: '458.3316'
+        y: '66.94'
+        z: '352.0053'
+        yaw: '2.9118'
+        pitch: '0.0'
+      spawned: true
+      text:
+        delay: 40
+        talk-close: true
+        random-talker: true
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        speech-bubbles: false
+        text:
+          '0': '&ewe built this castle all by ourselves!'
+          '1': '&edont ask me y the roof is floating :)'
+          '2': '&eyo &7Mew &eand &dWayne&e, get up here!'
+          '3': '&ebok bok bok'
+          '4': '&ethe view is rly nice :O'
+      sitting:
+        sitting: true
+        chair location:
+          world: world
+          x: '458.3316'
+          y: '66.8'
+          z: '352.0053'
+          yaw: '2.9118'
+          pitch: '0.0'
+      owner:
+        uuid: 40918953-b8a4-40c5-80da-b33dbf94e95b
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+      age:
+        age: -24000
+        locked: true
+      speech: chat
+      waypoints:
+        linear:
+          cachePaths: false
+          cycle: false
+        provider: linear
+      mounttrait:
+        mountedon: a92e6b13-70c6-4122-9d4d-6302ef59d859
+      lookclose:
+        range: '2.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: text,waypoints,mounttrait,age,hologramtrait,lookclose,owner,spawned,scoreboardtrait,sitting,location,type,speech
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '7':
+    metadata:
+      cached-skin-uuid: 017d0fbb-99cd-4970-a933-47d8e8e871fd
+      cached-skin-uuid-name: c63f7ef4-effd-42e1-b529-f96c3801d5e9
+    name: §3Lifeguard
+    uuid: 5c512dfd-563d-46b8-bd90-9c31767de3ef
+    traits:
+      type: PLAYER
+      location:
+        bodyYaw: -43.716827
+        world: world
+        x: '471.5568'
+        y: '70.5'
+        z: '375.0978'
+        yaw: '-43.7168'
+        pitch: '0.0'
+      spawned: true
+      text:
+        delay: -1
+        talk-close: false
+        random-talker: true
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        speech-bubbles: false
+        text:
+          '0': '&3Hey duuuude!'
+          '1': '&3My job is to save people that are drowning'
+          '2': '&3Really nice weather today, huh?'
+          '3': '&3You don''t like small talk? :('
+          '4': '&3This place is so rad, dude!'
+      owner:
+        uuid: 40918953-b8a4-40c5-80da-b33dbf94e95b
+      age:
+        age: 0
+        locked: true
+      waypoints:
+        linear:
+          cachePaths: false
+          cycle: false
+          points:
+            '0':
+              location:
+                world: world
+                x: '472.0'
+                y: '71.0'
+                z: '373.0'
+                yaw: '0.0'
+                pitch: '0.0'
+              triggers:
+                '0':
+                  delay: 100
+                  type: delay
+            '1':
+              location:
+                world: world
+                x: '472.0'
+                y: '71.0'
+                z: '380.0'
+                yaw: '0.0'
+                pitch: '0.0'
+              triggers:
+                '0':
+                  delay: 100
+                  type: delay
+        provider: linear
+      skintrait:
+        fetchDefaultSkin: true
+        signature: k6Do7j/EkXmVNpQdHBT3KPg+9o5MZCqn+H3LrVfKUXxaEv+I7/Yz5EgwTFDUYMfqnH7qctTFZaAMUgEtbjxFDEVpmcGaEmMg2acPEfXLToqCzU+WPCESe8RcF6jScvlb9/fs0ak54f+RXYyTDHoQQfgt9/aAB3aHkPcfSIBwswPxDBFJlvrS6OKP/qUJqhcWREw9SFOaPAWYMlfbUVOLbJ4kcec+TxX68GdY5utU5eN484IyXtgaJBV0G6DP719UKT7YS/XaRqL+9RvP5YMmftkIEnzIwQgClJELnbrAoDf43CRbj1NKJ+R1eK2wRRcQKvwjf5qt1b1Fv+qFNqeAQS7MpYAoGWayn3KxKHOVkfkbwKKlG0U7FhTDHSvNKcRzDiRjkXXdeoON4BELo7fJ/1/7VCE+lKqALCsUyBnOhUt+sE2OiGPoFwqUE+jipXZY2IL5rdwJJwIqZTsaxZgMwqvQU+l7ql5+b1lzIlrDe+c1kONBnrZKiHNFuG5aGO3wZ2HUMtYzybme34QkzeCE1OSKjMvL0hEKP+pVdOc9qbngnEyAFNSFOg5Wd3miJm93VSq7MQjTKN1T+QJ3I7bfBGJG0+8pIQjc1mSbGRK9DOGY3EEWhMLhpNS6toDSK9ubcVHKDix8G6HLNHmYrDjReDZHQ+XGtgueeHsaz+fcWho=
+        skinName: c63f7ef4-effd-42e1-b529-f96c3801d5e9
+        textureRaw: eyJ0aW1lc3RhbXAiOjE1NzgxNTI3MzI1ODYsInByb2ZpbGVJZCI6ImRkZWQ1NmUxZWY4YjQwZmU4YWQxNjI5MjBmN2FlY2RhIiwicHJvZmlsZU5hbWUiOiJEaXNjb3JkQXBwIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80OWJmN2JiYzljYTRjOTU4MzllNzkyNzFhMDA1NjliNDFjMDY3NjhiY2RmZGJjNThkMzYwZTUyY2ZkZTg0Zjg5In19fQ==
+        updateSkins: false
+      lookclose:
+        range: '2.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: true
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: text,waypoints,mounttrait,age,smoothrotationtrait,lookclose,owner,scoreboardtrait,spawned,inventory,location,type,skintrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true

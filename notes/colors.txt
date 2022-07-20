@@ -1,0 +1,26 @@
+Dark Red &4
+- You
+
+Red &c
+- Commands
+
+Gold &6
+- Detailed info
+- General formatting
+
+Yellow &e
+- Tips
+
+Light Green &a
+- Welcome
+
+Dark Aqua &3
+- NPC names
+
+Blue &9
+- Big names
+- Acronyms
+
+Light Purple &d
+- Telport
+- Exiting

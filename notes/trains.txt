@@ -1,0 +1,26 @@
+Types of trains:
+
+Connectors - travels only to grand stations
+- Quartz, Iron, 
+- https://www.google.com/search?q=fancy+train+stations&source=lnms&tbm=isch&sa=X&ved=2ahUKEwi5puL3j_z4AhVlD0QIHZLqDc0Q_AUoAXoECAIQAw&biw=1536&bih=754&dpr=1.25#imgrc=dTL_Xdw_J7Nw4M
+
+Regional - travels very far to get to certain locations for breadth
+
+Full - travels far but makes a ton of stops (complement to regional)
+- NYC
+
+Local - travels to many stops in a certain area
+- NYC
+
+
+
+Functional - travels to specific topics (like entertainment, scenaric, landmark only etc) (and can be mixed with the other types)
+
+
+feedback:
+- make station more realistic/not random (structure and block type)
+- tunnels more realistic
+- try not using slabs
+- try to put columns, use different block types
+- longer station
+- torches?

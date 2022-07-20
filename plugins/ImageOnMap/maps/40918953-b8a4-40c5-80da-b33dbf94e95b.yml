@@ -1,0 +1,11 @@
+PlayerMapStore:
+  mapList:
+  - columns: 3
+    name: Map
+    id: Map
+    type: POSTER
+    rows: 1
+    mapsIDs:
+    - 100
+    - 101
+    - 102

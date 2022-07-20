@@ -1,0 +1,399 @@
+[22:32:34] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[22:32:36] [Worker-Main-3/INFO]: Loaded 7 recipes
+[22:32:37] [Server thread/INFO]: Starting minecraft server version 1.18.2
+[22:32:37] [Server thread/INFO]: Loading properties
+[22:32:37] [Server thread/INFO]: This server is running Paper version git-Paper-387 (MC: 1.18.2) (Implementing API version 1.18.2-R0.1-SNAPSHOT) (Git: df630a2 on ver/1.18.2)
+[22:32:37] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[22:32:37] [Server thread/INFO]: Using 4 threads for Netty based IO
+[22:32:37] [Server thread/INFO]: Default game type: SURVIVAL
+[22:32:37] [Server thread/INFO]: Generating keypair
+[22:32:37] [Server thread/INFO]: Starting Minecraft server on *:25565
+[22:32:37] [Server thread/INFO]: Using default channel type
+[22:32:37] [Server thread/INFO]: Paper: Using Java 11 compression from Velocity.
+[22:32:37] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[22:32:37] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.30
+[22:32:38] [Server thread/INFO]: [ImageOnMap] Loading ImageOnMap v5.0.1
+[22:32:38] [Server thread/INFO]: [HolographicDisplays] Loading HolographicDisplays v3.0.0-SNAPSHOT-b226
+[22:32:38] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[22:32:38] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.10+1742f98
+[22:32:38] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@68c8b756]
+[22:32:38] [Server thread/INFO]: [ChestCommands] Loading ChestCommands v4.0.3
+[22:32:38] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.5-dev+29-09dc49a
+[22:32:38] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.19.5-dev+29-09dc49a
+[22:32:38] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.19.5-dev+29-09dc49a
+[22:32:38] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.7+216b061
+[22:32:38] [Server thread/INFO]: [WESV] Loading WorldEditSelectionVisualizer v2.1.0
+[22:32:38] [Server thread/INFO]: [Citizens] Loading Citizens v2.0.30-SNAPSHOT (build 2609)
+[22:32:38] [Server thread/INFO]: [Denizen] Loading Denizen v1.2.5-SNAPSHOT (build 1773-REL)
+[22:32:38] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[22:32:38] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.30
+[22:32:38] [Server thread/INFO]:         __    
+[22:32:39] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.30
+[22:32:39] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[22:32:39] [Server thread/INFO]: 
+[22:32:39] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[22:32:39] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[22:32:39] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[22:32:39] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[22:32:39] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1141ms)
+[22:32:39] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[22:32:39] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.19.5-dev+29-09dc49a which is not a depend or softdepend of this plugin.
+[22:32:39] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[22:32:39] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[22:32:39] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[22:32:39] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[22:32:39] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.10+1742f98
+[22:32:39] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[22:32:39] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[22:32:40] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_18_R2.PaperweightAdapter as the Bukkit adapter
+[22:32:41] [Server thread/INFO]: Preparing level "world"
+[22:32:41] [Server thread/INFO]: -------- World Settings For [world] --------
+[22:32:41] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[22:32:41] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[22:32:41] [Server thread/INFO]: View Distance: 10
+[22:32:41] [Server thread/INFO]: Simulation Distance: 10
+[22:32:41] [Server thread/INFO]: Item Merge Radius: 2.5
+[22:32:41] [Server thread/INFO]: Item Despawn Rate: 6000
+[22:32:41] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[22:32:41] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[22:32:41] [Server thread/INFO]: Mob Spawn Range: 6
+[22:32:41] [Server thread/INFO]: Experience Merge Radius: 3.0
+[22:32:41] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[22:32:41] [Server thread/INFO]: Cane Growth Modifier: 100%
+[22:32:41] [Server thread/INFO]: Melon Growth Modifier: 100%
+[22:32:41] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[22:32:41] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[22:32:41] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[22:32:41] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[22:32:41] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[22:32:41] [Server thread/INFO]: Potato Growth Modifier: 100%
+[22:32:41] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[22:32:41] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[22:32:41] [Server thread/INFO]: Vine Growth Modifier: 100%
+[22:32:41] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[22:32:41] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[22:32:41] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[22:32:41] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[22:32:41] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[22:32:41] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[22:32:41] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[22:32:41] [Server thread/INFO]: GlowBerry Growth Modifier: 100%
+[22:32:41] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[22:32:41] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[22:32:41] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[22:32:41] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[22:32:41] [Server thread/INFO]: Max TNT Explosions: 100
+[22:32:41] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[22:32:42] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[22:32:42] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[22:32:42] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[22:32:42] [Server thread/INFO]: View Distance: 10
+[22:32:42] [Server thread/INFO]: Simulation Distance: 10
+[22:32:42] [Server thread/INFO]: Item Merge Radius: 2.5
+[22:32:42] [Server thread/INFO]: Item Despawn Rate: 6000
+[22:32:42] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[22:32:42] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[22:32:42] [Server thread/INFO]: Mob Spawn Range: 6
+[22:32:42] [Server thread/INFO]: Experience Merge Radius: 3.0
+[22:32:42] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[22:32:42] [Server thread/INFO]: Cane Growth Modifier: 100%
+[22:32:42] [Server thread/INFO]: Melon Growth Modifier: 100%
+[22:32:42] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[22:32:42] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[22:32:42] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[22:32:42] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[22:32:42] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[22:32:42] [Server thread/INFO]: Potato Growth Modifier: 100%
+[22:32:42] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[22:32:42] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[22:32:42] [Server thread/INFO]: Vine Growth Modifier: 100%
+[22:32:42] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[22:32:42] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[22:32:42] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[22:32:42] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[22:32:42] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[22:32:42] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[22:32:42] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[22:32:42] [Server thread/INFO]: GlowBerry Growth Modifier: 100%
+[22:32:42] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[22:32:42] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[22:32:42] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[22:32:42] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[22:32:42] [Server thread/INFO]: Max TNT Explosions: 100
+[22:32:42] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[22:32:42] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[22:32:42] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[22:32:42] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[22:32:42] [Server thread/INFO]: View Distance: 10
+[22:32:42] [Server thread/INFO]: Simulation Distance: 10
+[22:32:42] [Server thread/INFO]: Item Merge Radius: 2.5
+[22:32:42] [Server thread/INFO]: Item Despawn Rate: 6000
+[22:32:42] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[22:32:42] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[22:32:42] [Server thread/INFO]: Mob Spawn Range: 6
+[22:32:42] [Server thread/INFO]: Experience Merge Radius: 3.0
+[22:32:42] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[22:32:42] [Server thread/INFO]: Cane Growth Modifier: 100%
+[22:32:42] [Server thread/INFO]: Melon Growth Modifier: 100%
+[22:32:42] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[22:32:42] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[22:32:42] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[22:32:42] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[22:32:42] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[22:32:42] [Server thread/INFO]: Potato Growth Modifier: 100%
+[22:32:42] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[22:32:42] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[22:32:42] [Server thread/INFO]: Vine Growth Modifier: 100%
+[22:32:42] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[22:32:42] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[22:32:42] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[22:32:42] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[22:32:42] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[22:32:42] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[22:32:42] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[22:32:42] [Server thread/INFO]: GlowBerry Growth Modifier: 100%
+[22:32:42] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[22:32:42] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[22:32:42] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[22:32:42] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[22:32:42] [Server thread/INFO]: Max TNT Explosions: 100
+[22:32:42] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[22:32:42] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[22:32:42] [Server thread/INFO]: Time elapsed: 306 ms
+[22:32:42] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[22:32:42] [Server thread/INFO]: Time elapsed: 100 ms
+[22:32:42] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[22:32:42] [Server thread/INFO]: Time elapsed: 111 ms
+[22:32:42] [Server thread/INFO]: [ImageOnMap] Enabling ImageOnMap v5.0.1
+[22:32:42] [Server thread/INFO]: [HolographicDisplays] Enabling HolographicDisplays v3.0.0-SNAPSHOT-b226
+[22:32:43] [Server thread/INFO]: [ChestCommands] Enabling ChestCommands v4.0.3
+[22:32:43] [Server thread/INFO]: [ChestCommands] Hooked Vault
+[22:32:43] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.5-dev+29-09dc49a
+[22:32:43] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[22:32:43] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[22:32:43] [Server thread/INFO]: [Essentials] Loaded 38132 items from items.json.
+[22:32:43] [Server thread/INFO]: [Essentials] Using locale en_US
+[22:32:43] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[22:32:43] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[22:32:43] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[22:32:43] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[22:32:43] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.19.5-dev+29-09dc49a
+[22:32:43] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[22:32:43] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.19.5-dev+29-09dc49a
+[22:32:43] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[22:32:43] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.7+216b061
+[22:32:44] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[22:32:44] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[22:32:44] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[22:32:44] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[22:32:44] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[22:32:44] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[22:32:44] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[22:32:44] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[22:32:44] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[22:32:44] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[22:32:44] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[22:32:44] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[22:32:44] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[22:32:44] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[22:32:44] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[22:32:44] [Server thread/INFO]: [WorldGuard] Loading region data...
+[22:32:44] [Server thread/INFO]: [WESV] Enabling WorldEditSelectionVisualizer v2.1.0
+[22:32:44] [Server thread/INFO]: [WESV] Using WorldEdit 7 api
+[22:32:44] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.30-SNAPSHOT (build 2609)
+[22:32:44] [Server thread/INFO]: [Citizens] Loaded economy handling via Vault.
+[22:32:45] [Server thread/INFO]: [Denizen] Enabling Denizen v1.2.5-SNAPSHOT (build 1773-REL)
+[22:32:45] [Server thread/INFO]: [Denizen] Running on java version: 18.0.1.1
+[22:32:45] [Server thread/INFO]: [Denizen] Running on unrecognized (future?) Java version. May or may not work.
+[22:32:45] [Server thread/INFO]: +> [Denizen] +-------------------------+ 
+[22:32:45] [Server thread/INFO]: +> [Denizen]  Denizen  scriptable minecraft 
+[22:32:45] [Server thread/INFO]: +> [Denizen]  
+[22:32:45] [Server thread/INFO]: +> [Denizen] by: The DenizenScript team 
+[22:32:45] [Server thread/INFO]: +> [Denizen] Chat with us at: https://discord.gg/Q6pZGSR 
+[22:32:45] [Server thread/INFO]: +> [Denizen] Or learn more at: https://denizenscript.com 
+[22:32:45] [Server thread/INFO]: +> [Denizen] version: 1.2.5-SNAPSHOT (build 1773-REL) 
+[22:32:45] [Server thread/INFO]: +> [Denizen] +-------------------------+ 
+[22:32:45] [Server thread/INFO]: +> [TriggerRegistry] Loaded 4 core triggers 
+[22:32:46] [Server thread/INFO]: +> [PaperModule] Loading Paper support module... 
+[22:32:46] [Server thread/INFO]: +> [Denizen] Loaded 149 core commands and 27 core object types, at 1430ms from start. 
+[22:32:46] [Server thread/INFO]: +> [ScriptHelper] No scripts in /plugins/Denizen/scripts/ to load! 
+[22:32:46] [Server thread/INFO]: +> [ScriptRegistry] Loading 0 script files... 
+[22:32:46] [Server thread/INFO]: +> [Denizen] Final full init took 1482ms. 
+[22:32:46] [Server thread/INFO]: Running delayed init tasks
+[22:32:46] [Craft Scheduler Thread - 1 - Essentials/INFO]: [Essentials] Fetching version information...
+[22:32:46] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[22:32:47] [Craft Scheduler Thread - 4 - WorldEditSelectionVisualizer/WARN]: [WESV] A new version is available ! Last version is 2.1.1 and you are on 2.1.0
+[22:32:47] [Craft Scheduler Thread - 4 - WorldEditSelectionVisualizer/WARN]: [WESV] You can download it on: https://www.spigotmc.org/resources/worldeditselectionvisualizer.17311/
+[22:32:47] [Server thread/INFO]: [Citizens] Loaded 8 NPCs.
+[22:32:47] [Server thread/INFO]: +> [ScriptEvent] Processed 0 script event paths. 
+[22:32:47] [Server thread/INFO]: +> [Denizen] +-------------------------+ 
+[22:32:47] [Server thread/INFO]: +> [Denizen] Denizen fully loaded at: 2022/07/17 22:32:45 
+[22:32:47] [Server thread/INFO]: Done (10.555s)! For help, type "help"
+[22:32:47] [Server thread/INFO]: Timings Reset
+[22:32:47] [Craft Scheduler Thread - 2 - Vault/INFO]: [Vault] Checking for Updates ... 
+[22:32:47] [Craft Scheduler Thread - 2 - Vault/INFO]: [Vault] No new version available
+[22:33:49] [User Authenticator #1/INFO]: UUID of player ziwengames is 40918953-b8a4-40c5-80da-b33dbf94e95b
+[22:33:49] [Server thread/INFO]: ziwengames joined the game
+[22:33:49] [Server thread/INFO]: ziwengames[/127.0.0.1:58188] logged in with entity id 703 at ([world]665.906040143709, 46.0, 291.6719102479088)
+[22:35:42] [Server thread/INFO]: ziwengames issued server command: /thru
+[22:35:58] [Server thread/INFO]: ziwengames issued server command: /effect give ziwengames minecraft:night_vision
+[22:35:58] [Server thread/INFO]: [ziwengames: Applied effect Night Vision to ziwengames]
+[22:36:06] [Server thread/INFO]: ziwengames issued server command: /effect give ziwengames minecraft:night_vision 10000
+[22:36:06] [Server thread/INFO]: [ziwengames: Applied effect Night Vision to ziwengames]
+[22:37:32] [Server thread/INFO]: ziwengames issued server command: //set light_gray_concrete
+[22:37:36] [Server thread/INFO]: ziwengames issued server command: //set light_gray_concrete
+[22:37:39] [Server thread/INFO]: ziwengames issued server command: //set light_gray_concrete
+[22:37:41] [Server thread/INFO]: ziwengames issued server command: //set light_gray_concrete
+[22:37:44] [Server thread/INFO]: ziwengames issued server command: //set light_gray_concrete
+[22:37:47] [Server thread/INFO]: ziwengames issued server command: //set light_gray_concrete
+[22:37:52] [Server thread/INFO]: ziwengames issued server command: //set light_gray_concrete
+[22:37:57] [Server thread/INFO]: ziwengames issued server command: //set light_gray_concrete
+[22:38:00] [Server thread/INFO]: ziwengames issued server command: //set light_gray_concrete
+[22:38:04] [Server thread/INFO]: ziwengames issued server command: //set light_gray_concrete
+[22:54:32] [Server thread/INFO]: ziwengames issued server command: //replacenear 50 stone_bricks prismarine
+[22:54:39] [Server thread/INFO]: ziwengames issued server command: //undo
+[22:54:45] [Server thread/INFO]: ziwengames issued server command: //replacenear 50 stone_bricks prismarine_bricks
+[22:55:02] [Server thread/INFO]: ziwengames issued server command: //replacenear 50 stone_brick_stairs dark_prismarine_stairs
+[22:55:05] [Server thread/INFO]: ziwengames issued server command: //undo
+[22:56:25] [Server thread/INFO]: ziwengames issued server command: //replacenear 50 stone_brick_stairs[facing=north] dark_prismarine_stairs[facing=north]
+[22:56:40] [Server thread/INFO]: ziwengames issued server command: //replacenear 50 stone_brick_stairs[facing=south] dark_prismarine_stairs[facing=south]
+[22:56:51] [Server thread/INFO]: ziwengames issued server command: //replacenear 50 stone_brick_stairs[facing=east] dark_prismarine_stairs[facing=east]
+[22:57:12] [Server thread/INFO]: ziwengames issued server command: //set prismarine_bricks
+[22:57:50] [Server thread/INFO]: ziwengames issued server command: //set light_gray_concrete
+[22:58:30] [Server thread/INFO]: ziwengames issued server command: //set light_gray_concrete
+[23:01:44] [Server thread/INFO]: ziwengames issued server command: //set dark_prismarine_stairs[facing=north
+[23:01:47] [Server thread/INFO]: ziwengames issued server command: //set dark_prismarine_stairs[facing=north]
+[23:01:59] [Server thread/INFO]: ziwengames issued server command: //set dark_prismarine_stairs[facing=north,half=top]
+[23:02:07] [Server thread/INFO]: ziwengames issued server command: //set dark_prismarine_stairs[facing=north,half=top]
+[23:02:23] [Server thread/INFO]: ziwengames issued server command: //set dark_prismarine_stairs[facing=south,half=top]
+[23:07:25] [Server thread/INFO]: ziwengames issued server command: /thru
+[23:07:26] [Server thread/INFO]: ziwengames issued server command: /thru
+[23:07:28] [Server thread/INFO]: ziwengames issued server command: /thru
+[23:07:30] [Server thread/INFO]: ziwengames issued server command: /thru
+[23:15:01] [Server thread/INFO]: ziwengames issued server command: //set dark_prismarine_stairs[facing=south,half=top]
+[23:24:00] [Server thread/INFO]: ziwengames issued server command: //expand 5 forward
+[23:24:02] [Server thread/INFO]: ziwengames issued server command: //cut
+[23:24:08] [Server thread/INFO]: ziwengames issued server command: /thru
+[23:24:11] [Server thread/INFO]: ziwengames issued server command: //expand 5 forward
+[23:24:13] [Server thread/INFO]: ziwengames issued server command: /thru
+[23:24:15] [Server thread/INFO]: ziwengames issued server command: //cut
+[23:25:24] [Server thread/INFO]: ziwengames issued server command: //drain 5
+[23:25:48] [Server thread/INFO]: ziwengames issued server command: //expand 5 forward
+[23:25:50] [Server thread/INFO]: ziwengames issued server command: //cut
+[23:28:24] [Server thread/INFO]: ziwengames issued server command: /thru
+[23:28:25] [Server thread/INFO]: ziwengames issued server command: /thru
+[23:28:29] [Server thread/INFO]: ziwengames issued server command: /thru
+[23:28:40] [Server thread/INFO]: ziwengames issued server command: /thru
+[23:29:58] [Server thread/INFO]: ziwengames issued server command: //undo
+[23:30:41] [Server thread/INFO]: ziwengames issued server command: //cut
+[23:31:45] [Server thread/INFO]: ziwengames issued server command: //cut
+[23:32:13] [Server thread/INFO]: ziwengames issued server command: //cut
+[23:34:58] [Server thread/INFO]: ziwengames issued server command: //cut
+[23:35:05] [Server thread/INFO]: ziwengames issued server command: //cut
+[23:35:13] [Server thread/INFO]: ziwengames issued server command: //cut
+[23:36:13] [Server thread/INFO]: ziwengames issued server command: /top
+[23:38:17] [Server thread/INFO]: ziwengames issued server command: /thru
+[23:38:25] [Server thread/INFO]: ziwengames issued server command: /thru
+[23:38:26] [Server thread/INFO]: ziwengames issued server command: /thru
+[23:38:28] [Server thread/INFO]: ziwengames issued server command: /thru
+[23:38:34] [Server thread/INFO]: ziwengames issued server command: /thru
+[23:38:36] [Server thread/INFO]: ziwengames issued server command: /thru
+[23:38:37] [Server thread/INFO]: ziwengames issued server command: /thru
+[23:38:40] [Server thread/INFO]: ziwengames issued server command: /thru
+[23:39:27] [Server thread/INFO]: ziwengames issued server command: //cut
+[23:39:41] [Server thread/INFO]: ziwengames issued server command: //expand 5 forward
+[23:39:43] [Server thread/INFO]: ziwengames issued server command: //cut
+[23:40:30] [Server thread/INFO]: ziwengames issued server command: /top
+[23:40:30] [Server thread/WARN]: ziwengames moved too quickly! -0.2699340538014212,17.0,-0.19999998807907104
+[23:40:40] [Server thread/INFO]: ziwengames issued server command: /thru
+[23:41:24] [Server thread/INFO]: ziwengames issued server command: //set light_gray_co
+[23:41:27] [Server thread/INFO]: ziwengames issued server command: //set light_gray_concrete
+[23:41:32] [Server thread/INFO]: ziwengames issued server command: //set light_gray_concrete
+[23:41:37] [Server thread/INFO]: ziwengames issued server command: //set light_gray_concrete
+[23:41:40] [Server thread/INFO]: ziwengames issued server command: //set light_gray_concrete
+[23:43:00] [Server thread/INFO]: ziwengames issued server command: //cut
+[23:43:14] [Server thread/INFO]: ziwengames issued server command: //cut
+[23:43:22] [Server thread/INFO]: ziwengames issued server command: //cut
+[23:43:30] [Server thread/INFO]: ziwengames issued server command: //cut
+[23:43:34] [Server thread/INFO]: ziwengames issued server command: //cut
+[23:43:40] [Server thread/INFO]: ziwengames issued server command: //cut
+[23:43:51] [Server thread/INFO]: ziwengames issued server command: //expand 10 forward
+[23:43:53] [Server thread/INFO]: ziwengames issued server command: //cut
+[23:43:58] [Server thread/INFO]: ziwengames issued server command: //expand 10 forward
+[23:44:01] [Server thread/INFO]: ziwengames issued server command: //expand 10 forward
+[23:44:03] [Server thread/INFO]: ziwengames issued server command: //cut
+[23:44:08] [Server thread/INFO]: ziwengames issued server command: //expand 10 forward
+[23:44:09] [Server thread/INFO]: ziwengames issued server command: //cut
+[23:44:25] [Server thread/INFO]: ziwengames issued server command: //undo
+[23:44:31] [Server thread/INFO]: ziwengames issued server command: //undo
+[23:44:39] [Server thread/INFO]: ziwengames issued server command: //set gravel
+[23:44:51] [Server thread/INFO]: ziwengames issued server command: /thru
+[23:44:54] [Server thread/INFO]: ziwengames issued server command: /thru
+[23:45:04] [Server thread/INFO]: ziwengames issued server command: /thru
+[23:45:33] [Server thread/INFO]: ziwengames issued server command: /thru
+[23:46:20] [Server thread/INFO]: ziwengames issued server command: /thru
+[23:46:23] [Server thread/INFO]: ziwengames issued server command: /thru
+[23:46:24] [Server thread/INFO]: ziwengames issued server command: /thru
+[23:46:25] [Server thread/INFO]: ziwengames issued server command: /thru
+[23:46:27] [Server thread/INFO]: ziwengames issued server command: /thru
+[23:46:51] [Server thread/INFO]: ziwengames issued server command: //undo
+[23:46:55] [Server thread/INFO]: ziwengames issued server command: //redo
+[23:47:04] [Server thread/INFO]: ziwengames issued server command: //set stone
+[23:47:20] [Server thread/INFO]: ziwengames issued server command: //cut
+[23:47:27] [Server thread/INFO]: ziwengames issued server command: //set stone
+[23:47:47] [Server thread/INFO]: ziwengames issued server command: //cut
+[23:47:51] [Server thread/INFO]: ziwengames issued server command: //cut
+[23:48:04] [Server thread/INFO]: ziwengames issued server command: //expand 20 forward
+[23:48:05] [Server thread/INFO]: ziwengames issued server command: //cut
+[23:48:19] [Server thread/INFO]: ziwengames issued server command: //undo
+[23:49:19] [Server thread/INFO]: ziwengames issued server command: //cut
+[23:49:25] [Server thread/INFO]: ziwengames issued server command: //cut
+[23:49:28] [Server thread/INFO]: ziwengames issued server command: //cut
+[23:49:31] [Server thread/INFO]: ziwengames issued server command: //cut
+[23:49:34] [Server thread/INFO]: ziwengames issued server command: //cut
+[23:49:39] [Server thread/INFO]: ziwengames issued server command: //cut
+[23:50:04] [Server thread/INFO]: ziwengames issued server command: //cut
+[23:50:08] [Server thread/INFO]: ziwengames issued server command: //cut
+[23:50:12] [Server thread/INFO]: ziwengames issued server command: //cut
+[23:50:14] [Server thread/INFO]: ziwengames issued server command: //cut
+[23:50:28] [Server thread/INFO]: ziwengames issued server command: //cut
+[23:50:30] [Server thread/INFO]: ziwengames issued server command: //cut
+[23:50:34] [Server thread/INFO]: ziwengames issued server command: //cut
+[23:50:44] [Server thread/INFO]: ziwengames issued server command: //cut
+[23:58:30] [Server thread/INFO]: ziwengames lost connection: Disconnected
+[23:58:30] [Server thread/INFO]: ziwengames left the game
+[23:58:36] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[23:58:37] [Server thread/INFO]: Stopping the server
+[23:58:37] [Server thread/INFO]: Stopping server
+[23:58:37] [Server thread/INFO]: [Denizen] Disabling Denizen v1.2.5-SNAPSHOT (build 1773-REL)
+[23:58:37] [Server thread/INFO]: [Denizen]  v1.2.5-SNAPSHOT (build 1773-REL) disabled.
+[23:58:37] [Server thread/INFO]: [Citizens] Disabling Citizens v2.0.30-SNAPSHOT (build 2609)
+[23:58:37] [Server thread/INFO]: [WESV] Disabling WorldEditSelectionVisualizer v2.1.0
+[23:58:37] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.7+216b061
+[23:58:37] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[23:58:37] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.19.5-dev+29-09dc49a
+[23:58:37] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.19.5-dev+29-09dc49a
+[23:58:37] [Server thread/INFO]: [Essentials] Disabling Essentials v2.19.5-dev+29-09dc49a
+[23:58:37] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[23:58:37] [Server thread/INFO]: [ChestCommands] Disabling ChestCommands v4.0.3
+[23:58:37] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.10+1742f98
+[23:58:37] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[23:58:37] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[23:58:37] [Server thread/INFO]: [HolographicDisplays] Disabling HolographicDisplays v3.0.0-SNAPSHOT-b226
+[23:58:37] [Server thread/INFO]: [ImageOnMap] Disabling ImageOnMap v5.0.1
+[23:58:37] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.30
+[23:58:37] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[23:58:37] [Server thread/INFO]: [LuckPerms] Closing storage...
+[23:58:38] [Server thread/INFO]: [LuckPerms] Goodbye!
+[23:58:38] [Server thread/INFO]: Saving players
+[23:58:38] [Server thread/INFO]: Saving worlds
+[23:58:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[23:59:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[23:59:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[23:59:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[23:59:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23:59:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23:59:13] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[23:59:16] [Server thread/INFO]: Flushing Chunk IO
+[23:59:16] [Server thread/INFO]: Closing Thread Pool
+[23:59:16] [Server thread/INFO]: Closing Server
