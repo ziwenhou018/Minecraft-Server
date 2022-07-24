@@ -15,18 +15,19 @@ regions:
             groups: [ziwen, builder, hacker]
         flags:
             other-explosion: deny
-            wither-damage: deny
             teleport-message: §dTeleported you to §3Twin Islands
+            wither-damage: deny
             lava-fire: deny
             greeting: \n§3********************************\n§aWelcome to §3Twin islands§a!\n§6Please
                 enjoy the statues and beaches on our nice island!\n§6[§eTip§6] You
                 can use the §9World Train sysFem §6(§9WTF§6) to get around the world!
-                \n§6[§eTip§6] If you are new here, follow the signs for a guide
-                around the islands and a way to §lpromote your rank§k...\n§3********************************
+                \n§6[§eTip§6] If you are new here, follow the signs for a guide around
+                the islands and a way to §lpromote your rank§k...\n§3********************************
             teleport: {world: world, x: 483.0, y: 65.0, z: 387.0, pitch: -5.0, yaw: 180.0}
+            interact: allow
             enderman-grief: deny
-            weather-lock: clear
             mob-spawning: deny
+            weather-lock: clear
             fire-spread: deny
             enderdragon-block-damage: deny
             creeper-explosion: deny

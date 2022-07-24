@@ -19,7 +19,7 @@ npc:
         x: '525.8211'
         y: '65.0'
         z: '328.3563'
-        yaw: '95.6439'
+        yaw: '-12.9354'
         pitch: '0.0'
       text:
         delay: -1
@@ -57,7 +57,7 @@ npc:
           '0': 0.0
           '1': 360.0
       speech: chat
-    traitnames: scoreboardtrait,spawned,text,location,mounttrait,age,type,speech,lookclose,owner
+    traitnames: owner,scoreboardtrait,lookclose,speech,mounttrait,spawned,age,location,type,text
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -121,7 +121,7 @@ npc:
           '5': '&3What do you mean what am I doing here?? &l&nI don''t want to be
             here&r&3.'
       speech: chat
-    traitnames: spawned,scoreboardtrait,text,inventory,location,mounttrait,age,type,skinlayers,speech,skintrait,owner
+    traitnames: owner,scoreboardtrait,speech,mounttrait,age,skinlayers,spawned,inventory,location,type,text,skintrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -164,13 +164,13 @@ npc:
         direction: BOTTOM_UP
         lineHeight: -1.0
       location:
-        bodyYaw: 110.16818
+        bodyYaw: 110.32437
         world: world
         x: '578.7612'
         y: '65.0'
         z: '317.5555'
-        yaw: '139.6714'
-        pitch: '-57.4768'
+        yaw: '138.8469'
+        pitch: '10.6011'
       text:
         delay: -1
         talk-close: false
@@ -187,7 +187,7 @@ npc:
         mountedon: c3e8ceaa-98f4-482a-a65d-df0188e80883
       sneaking:
         sneaking: true
-    traitnames: text,mounttrait,age,hologramtrait,smoothrotationtrait,owner,lookclose,sneaking,spawned,scoreboardtrait,inventory,location,type,skintrait
+    traitnames: owner,lookclose,mounttrait,spawned,sneaking,age,scoreboardtrait,smoothrotationtrait,hologramtrait,inventory,location,type,text,skintrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -205,12 +205,12 @@ npc:
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1Nzk0NjU1NTE0OSwKICAicHJvZmlsZUlkIiA6ICJjNTZlMjI0MmNiZWY0MWE2ODdlMzI2MGRjMGNmOTM2MSIsCiAgInByb2ZpbGVOYW1lIiA6ICJMSlI3MzEwMCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS85Y2I2ODI0MGFjYTQ4YTkxZjRhZmFmOTg5N2MxMDRmN2YyYzlhMjc0MzdlMjg0ZTA3MjQ2NDYzYmU2ODI1MzFlIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=
         updateSkins: false
       location:
-        bodyYaw: 142.53142
+        bodyYaw: 269.59125
         world: world
-        x: '635.2397'
+        x: '638.5646'
         y: '60.5'
-        z: '288.4651'
-        yaw: '142.5314'
+        z: '288.4998'
+        yaw: '-90.4088'
         pitch: '0.0'
       type: PLAYER
       owner:
@@ -300,7 +300,7 @@ npc:
                   type: speed
         provider: linear
       speech: chat
-    traitnames: spawned,scoreboardtrait,text,inventory,location,waypoints,mounttrait,age,type,speech,skintrait,owner
+    traitnames: owner,scoreboardtrait,speech,mounttrait,age,spawned,waypoints,inventory,location,type,text,skintrait
     navigator:
       speedmodifier: '0.5'
       avoidwater: false
@@ -317,7 +317,7 @@ npc:
         x: '460.0512'
         y: '62.94'
         z: '359.0981'
-        yaw: '-88.1591'
+        yaw: '-66.3051'
         pitch: '0.0'
       spawned: true
       text:
@@ -348,7 +348,7 @@ npc:
       owner:
         uuid: 40918953-b8a4-40c5-80da-b33dbf94e95b
       mounttrait:
-        mountedon: d046e1c7-559d-4665-8a15-46697711f86b
+        mountedon: 00a5267a-549d-4e81-90c6-8ecc5b5680c3
       lookclose:
         range: '2.0'
         disablewhilenavigating: true
@@ -365,7 +365,7 @@ npc:
       age:
         age: -24000
         locked: true
-    traitnames: spawned,scoreboardtrait,text,sitting,location,mounttrait,age,type,speech,owner,lookclose
+    traitnames: owner,scoreboardtrait,lookclose,speech,mounttrait,age,spawned,location,sitting,type,text
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -382,7 +382,7 @@ npc:
         x: '459.7805'
         y: '62.94'
         z: '356.1509'
-        yaw: '-76.2539'
+        yaw: '2.4316'
         pitch: '0.0'
       spawned: true
       text:
@@ -411,7 +411,7 @@ npc:
       owner:
         uuid: 40918953-b8a4-40c5-80da-b33dbf94e95b
       mounttrait:
-        mountedon: 42e6270a-cf0b-4fad-a608-a1cbf54779b9
+        mountedon: 3bd180ba-d0a8-4402-9b09-e55e3d4a3e41
       lookclose:
         range: '2.0'
         disablewhilenavigating: true
@@ -431,7 +431,7 @@ npc:
       age:
         age: -24000
         locked: true
-    traitnames: spawned,scoreboardtrait,text,sitting,location,mounttrait,age,hologramtrait,type,speech,owner,lookclose
+    traitnames: owner,scoreboardtrait,lookclose,speech,mounttrait,age,spawned,hologramtrait,location,sitting,type,text
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -447,7 +447,7 @@ npc:
         x: '458.3316'
         y: '66.94'
         z: '352.0053'
-        yaw: '2.9118'
+        yaw: '51.5087'
         pitch: '0.0'
       spawned: true
       text:
@@ -488,7 +488,7 @@ npc:
           cycle: false
         provider: linear
       mounttrait:
-        mountedon: a92e6b13-70c6-4122-9d4d-6302ef59d859
+        mountedon: b9692881-e20c-47b0-ab6b-3cd20d444925
       lookclose:
         range: '2.0'
         disablewhilenavigating: true
@@ -502,7 +502,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: text,waypoints,mounttrait,age,hologramtrait,lookclose,owner,spawned,scoreboardtrait,sitting,location,type,speech
+    traitnames: owner,lookclose,speech,mounttrait,waypoints,spawned,age,scoreboardtrait,hologramtrait,location,sitting,type,text
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -516,12 +516,12 @@ npc:
     traits:
       type: PLAYER
       location:
-        bodyYaw: -43.716827
+        bodyYaw: -151.71985
         world: world
-        x: '471.5568'
+        x: '471.5674'
         y: '70.5'
-        z: '375.0978'
-        yaw: '-43.7168'
+        z: '378.72'
+        yaw: '-151.7198'
         pitch: '0.0'
       spawned: true
       text:
@@ -592,7 +592,8 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: text,waypoints,mounttrait,age,smoothrotationtrait,lookclose,owner,scoreboardtrait,spawned,inventory,location,type,skintrait
+      speech: chat
+    traitnames: owner,lookclose,speech,mounttrait,waypoints,age,spawned,scoreboardtrait,smoothrotationtrait,inventory,location,type,skintrait,text
     navigator:
       speedmodifier: '1.0'
       avoidwater: false

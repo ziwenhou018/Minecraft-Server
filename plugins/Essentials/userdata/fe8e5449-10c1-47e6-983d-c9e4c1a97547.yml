@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 141.151.82.238
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1658636778866
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1658637941159
+  login: 1658629932267
+money: '0'
+last-account-name: Preponderation
+logoutlocation:
+  world: 21fedc41-c1cf-466a-bc89-23d979ffe576
+  world-name: world
+  x: 505.2941450337573
+  y: 80.89856826573168
+  z: 359.60837705822627
+  yaw: 0.63671875
+  pitch: 42.15000915527344
+lastlocation:
+  world: 21fedc41-c1cf-466a-bc89-23d979ffe576
+  world-name: world
+  x: 511.2378493119308
+  y: 85.10773609948085
+  z: 270.5430106650209
+  yaw: 171.45037841796875
+  pitch: 46.05018615722656
